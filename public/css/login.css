@@ -1,0 +1,6 @@
+/* ログイン画面のCSS */
+
+.login {
+    text-align: center; /* 全体を画面中央に配置 */
+    padding-top: 100px;
+}

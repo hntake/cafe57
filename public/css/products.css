@@ -1,0 +1,135 @@
+/* 在庫一覧画面のCSS */
+body {
+    background-color:#f6f5f4;
+    margin-left: 125px;
+    margin-top: 25px;
+}
+a#navbarDropdown{
+    text-decoration: none;
+    color: #d3571e;
+    background-color: #85e42c;
+    text-decoration: none;
+    width: 100%;
+    max-width: 340px;
+    padding: 5px 10px;
+
+}
+
+/*サイドメニュー*/
+.side{
+    background-color: lemonchiffon;
+    width: 500px;
+    height:700px;
+    text-align:center;
+    border: 2px solid;
+}
+.side a{
+    text-decoration: none;
+    color:saddlebrown;
+}
+.py-4 { /* 在庫一覧表のエリア */
+    height:700px;
+    text-align:center;
+    /* border: 2px solid; */
+    margin-left:5px;
+    position: relative;
+    display: flex;
+   /*  margin-right: 700px; */
+}
+.table-responsive{
+    background-color: #CCFF99;
+    padding-left: 63;
+    padding-right: 100;
+    padding-top: 30;
+    width: 800px;
+}
+.table-responsive p{
+    background-color:#CCFF99;
+    color:darkgreen;
+    height: 30px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.table-hover{
+    width: 100%;
+}
+
+th,td {
+    border: solid 1px;              /* 枠線指定 */
+    font-weight: 800;              /*太字*/
+}
+
+table {
+    border-collapse:  collapse;     /* セルの線を重ねる */
+}
+.alert{
+    text-align: center;
+}
+.alert a{
+    text-decoration: none;
+    border: solid 0.5px orange;
+    background-color: yellow;
+    border-radius: 10px;
+    color:yellow;
+}
+.button{
+    margin-top:10px;
+}
+.button a{
+    color: #1422d1;
+    background-color: #2feb00;
+    text-decoration: none;
+    margin-top:10px;
+    padding: 5px 10px;
+    font-weight:800;
+}
+.button input{
+    color: #1422d1;
+    background-color: #2feb00;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight:800;
+}
+.button button{
+    color: #1422d1;
+    background-color: #2feb00;
+    text-decoration: none;
+    font-size: larger;
+    font-weight:800;
+}
+.radio{
+    display:inline-block;
+}
+.radio p{
+    width: 100px;
+}
+/* 申請フォーム */
+.panel-body{
+    background-color:lightgreen;
+    padding: 0 110;
+}
+.form-group{
+    margin: 50;
+}
+
+.control-label{
+   /*  background-color:#CCFF99; */
+    color:darkgreen;
+    height: 30px;
+   /*  border: solid green; */
+    font-weight: bold;
+    font-size: larger;
+}
+.col-sm-6{
+    margin-top: 30px;
+}
+.col-sm-6 label{
+    font-size: larger;
+    font-weight: 800;
+}
+/*注文メールフォーム*/
+
